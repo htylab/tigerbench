@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tigerbench"
+version = "0.0.1"
+description = "Lightweight, nD-ready metrics toolkit with per-metric control and dual MI."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Your Name"}]
+
+dependencies = [
+  "numpy>=1.22",
+  "scipy>=1.9",
+  "scikit-learn>=1.2",
+  "sacrebleu>=2.4",
+  "rouge-score>=0.1.2"
+]
