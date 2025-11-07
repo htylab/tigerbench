@@ -3,6 +3,14 @@
 輕量、nD、無 group 模式，支援 **個別參數設定**。
 
 ## 安裝
+可以直接使用 pip 從 GitHub 取得最新版本，所有模組與相依套件預設一併安裝：
+
+```bash
+pip install https://github.com/htylab/tigerbench/archive/main.zip
+```
+
+若要安裝已發佈的穩定版本，可改用 PyPI：
+
 ```bash
 pip install tigerbench==0.0.1
 ```
